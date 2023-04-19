@@ -6,7 +6,7 @@
 /*   By: jchu <jchu@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/19 09:59:38 by jchu              #+#    #+#             */
-/*   Updated: 2023/04/19 16:59:07 by jchu             ###   ########.fr       */
+/*   Updated: 2023/04/20 01:04:17 by jchu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@ public:
     Fixed( void );
     Fixed( const int n );
     Fixed( const float n );
-    Fixed( const Fixed &rhs );
-    Fixed& operator=( const Fixed &rhs );
+    Fixed( const Fixed &otherFixed );
+    Fixed& operator=( const Fixed &otherFixed );
     ~Fixed();
 
     int     getRawBits( void ) const;
