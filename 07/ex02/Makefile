@@ -5,16 +5,16 @@
 #                                                     +:+ +:+         +:+      #
 #    By: jchu <jchu@student.42kl.edu.my>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/04/28 15:49:20 by jchu              #+#    #+#              #
-#    Updated: 2023/04/28 18:25:50 by jchu             ###   ########.fr        #
+#    Created: 2023/04/28 20:09:41 by jchu              #+#    #+#              #
+#    Updated: 2023/04/28 20:09:42 by jchu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= identifyType
+NAME		= iter
 
 SRCS		= main.cpp
 
-AR_NAME		= identifyType.a
+AR_NAME		= iter.a
 
 OBJS		= $(SRCS:%.cpp=%.o)
 
